@@ -7,7 +7,7 @@ export const initMap = (container: HTMLDivElement) => {
             id: 'de5331c548fb49388059d3bfb24f0aad'
         }
     });
-    const view: MapView = new MapView({
+    new MapView({
         container: container,
         map: map
     });
