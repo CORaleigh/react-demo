@@ -62,7 +62,6 @@ function App() {
             hidden={selectedPanel !== 'Filter'}
             onCalcitePanelClose={() => setSelectedPanel('')}
           >
-            Test
             <ParkSelect parks={parks} updated={(expression: string) => setExpression(expression)}></ParkSelect>
             <p>{expression}</p>
           </CalcitePanel>
