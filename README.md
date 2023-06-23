@@ -67,7 +67,7 @@ export default App
   - npm install @arcgis/core
   - add following line to index.css
   
-  ```@import "https://js.arcgis.com/4.26/@arcgis/core/assets/esri/themes/dark/main.css";```
+  ```@import "https://js.arcgis.com/4.27/@arcgis/core/assets/esri/themes/dark/main.css";```
   
 -Install Calcite
   - npm install --save @esri/calcite-components-react
